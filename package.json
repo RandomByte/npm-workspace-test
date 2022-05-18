@@ -1,0 +1,22 @@
+{
+  "name": "npm-workspace-test",
+  "version": "1.0.0",
+  "description": "Repository to demonstrate an issue with workspaces in npm v8.8.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandomByte/npm-workspace-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/RandomByte/npm-workspace-test/issues"
+  },
+  "homepage": "https://github.com/RandomByte/npm-workspace-test#readme",
+  "workspaces": [
+    "my-module-*"
+  ]
+}
